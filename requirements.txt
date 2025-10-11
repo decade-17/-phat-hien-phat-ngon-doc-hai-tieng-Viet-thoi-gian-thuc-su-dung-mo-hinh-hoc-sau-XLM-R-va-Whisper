@@ -1,0 +1,23 @@
+# Web & API
+fastapi
+uvicorn[standard]
+streamlit
+requests
+
+# NLP & model
+torch>=1.12.0
+transformers
+faster-whisper
+
+# Audio
+sounddevice
+soundfile
+numpy
+
+# Utilities
+pandas
+plotly
+python-multipart
+tiktoken
+sentencepiece
+protobuf==3.20.3

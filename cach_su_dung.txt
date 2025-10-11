@@ -1,0 +1,4 @@
+1. mở terminal (Ctrl + J)
+2. kích hoạt venv: venv\Scripts\activate
+3. chạy chương trình: streamlit run app.py
+4. nhập bình luận và dự đoán 
