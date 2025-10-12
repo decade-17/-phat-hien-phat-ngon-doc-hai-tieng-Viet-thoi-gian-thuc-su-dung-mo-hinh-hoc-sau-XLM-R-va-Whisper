@@ -13,8 +13,9 @@ API_BASE = "http://127.0.0.1:8000"
 PREDICT_ENDPOINT = f"{API_BASE}/predict"
 SPEECH_ENDPOINT = f"{API_BASE}/speech"
 
-st.set_page_config(page_title="Lớp học AI - Theo dõi lời nói độc hại", layout="wide")
-st.title("🎧 Lớp học AI — Theo dõi lời nói độc hại (Tiếng Việt)")
+
+st.set_page_config(page_title="Hệ thống phát hiện phát ngôn độc hại tiếng Việt thời gian thực sử dụng mô hình học sâu XLM-R và Whisper", layout="wide")
+st.title("Hệ thống phát hiện phát ngôn độc hại tiếng Việt thời gian thực sử dụng mô hình học sâu XLM-R và Whisper")
 
 # Session state store for recent results
 if "history" not in st.session_state:
